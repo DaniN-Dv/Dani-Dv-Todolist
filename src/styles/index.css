@@ -9,3 +9,95 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+h1 {
+    font-weight: 20;
+    font-size: 5rem;
+    color: rgba(173, 0, 0, 0.2);
+}
+p {
+    font-weight: 20;
+    font-size: 1.5rem;
+}
+span {
+    font-weight: 20;
+    font-size: 1.5rem;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    box-shadow: -1px 25px 46px 10px rgba(0,0,0,0.15);
+    width: 70%;
+    border: 0.5px solid rgb(236, 236, 236);
+}
+li {
+    list-style: none;
+    border: 0.5px solid rgb(236, 236, 236);
+    border-left: none;
+    border-right: none;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    position: relative;
+
+}
+ul li span{
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+ul li span:hover {
+    opacity: 1;
+}
+.form-control {
+    font-weight: 20;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+input:focus {
+    font-weight: 20;
+    outline: none;
+    border-radius: 0;
+    border-top: 0.5px solid rgb(236, 236, 236) ;
+    border-bottom: 0.5px solid rgb(236, 236, 236);
+}
+
+.items{
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 0.8rem;
+    border-top: 0.5px solid rgb(236, 236, 236);
+}
+
+.fondo1 {
+    border: 0.5px solid rgb(236, 236, 236);
+    border-top: none;
+    width: 68%;
+    padding-bottom: 0.3rem;
+    background-color: white;
+}
+.fondo2 {
+    border: 0.5px solid rgb(236, 236, 236);
+    border-top: none;
+    width: 66%;
+    padding-bottom: 0.3rem;
+    background-color: white;
+}
